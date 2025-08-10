@@ -1,0 +1,10 @@
+<mod>
+    <!--Guid不修改，与Game.SubsystemWorld的Guid对应，new-Value改为新写的世界系统子类-->
+    <Parameter Name="Class" Guid="33333333-ffff-0000-0000-000000000001" new-Value="Game.SubsystemWorldDemo" Type="string" /> 
+
+    <ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+     <MemberSubsystemTemplate Name="EntityBlockBehavior" Guid="33333333-ffff-ffff-ffff-000000000000" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+        <Parameter Name="Class" Guid="33333333-ffff-ffff-ffff-000000000001" Value="Game.SubsystemEntityBlockBehavior" Type="string" />
+      </MemberSubsystemTemplate>
+    </ProjectTemplate>
+</mod>

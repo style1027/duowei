@@ -1,0 +1,14 @@
+<mod>
+     <!--这个文件无特殊需要不修改，与子世界无关-->
+    <ProjectTemplate Name="Project" Guid="85023bf8-1c90-4dd1-9442-e6c13691d078">
+     <MemberSubsystemTemplate Name="SubWorld" Guid="33333333-ffff-0000-0000-000000000000" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+        <Parameter Name="Class" Guid="33333333-ffff-0000-0000-000000000001" Value="Game.SubsystemWorld" Type="string" />
+       </MemberSubsystemTemplate>
+     <MemberSubsystemTemplate Name="TransferBlockBehavior" Guid="33333333-ffff-0000-0000-000000000002" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+        <Parameter Name="Class" Guid="33333333-ffff-0000-0000-000000000003" Value="Game.SubsystemTransferBlockBehavior" Type="string" />
+      </MemberSubsystemTemplate>
+     <MemberSubsystemTemplate Name="Chartlet" Guid="33333333-ffff-0000-0000-000000000004" InheritanceParent="fefb9590-4972-4893-b02a-76063611b745">
+        <Parameter Name="Class" Guid="33333333-ffff-0000-0000-000000000005" Value="Game.SubsystemChartlet" Type="string" />
+      </MemberSubsystemTemplate>
+    </ProjectTemplate>
+</mod>
